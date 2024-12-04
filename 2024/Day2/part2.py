@@ -33,5 +33,6 @@ for level in f:
             if is_level_safe:
                 num_safe += 1
                 break
+f.close()
 
 print(num_safe)

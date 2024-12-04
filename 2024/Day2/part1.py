@@ -15,4 +15,5 @@ for level in f:
         if np.all(level_diff < 0) or np.all(level_diff > 0):
             num_safe += 1
 
+f.close()
 print(num_safe)
