@@ -23,7 +23,8 @@ n_cols = len(maze[0])
 
 
 def get_next_current_node(unvisited_nodes):
-    # I have learned from the subreddit that I really should use a priority queue instead. next time!
+    # I have learned from the subreddit that I really should use a priority queue
+    # for better big-O access time instead. next time!
     min = np.inf
     for key in unvisited_nodes.keys():
         if unvisited_nodes[key][0] < min:
